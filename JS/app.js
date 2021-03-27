@@ -9,5 +9,13 @@ let todoList = [
 
 let completedTodos = [];
 
-console.log('Hello world')
+for (item of todoList){
+    if (item.status == 'complete')
+        completedTodos.push(item)
+}
 
+for (item of completedTodos){
+    console.log(item.todo)
+}
+
+console.log('Hello World')
