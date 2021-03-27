@@ -15,6 +15,7 @@ for (item of todoList){
 }
 
 for (item of completedTodos){
-    console.log(item.todo)
+    const todo = item.todo
+    console.log(todo)
 }
 
