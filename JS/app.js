@@ -1,13 +1,13 @@
 
 let todoList = [
                 { todo: "clone repo for starter code", status:"complete" },
-                { todo: "make a todo list", status: "complete"}
+                { todo: "make a todo list", status: "complete"},
+                { todo: "Dance", status: "started"},
+                { todo: "Complete week 11 lab", status: "started"}
+                
             ];
 
-let completedTodos = [
-                    { todo: "Dance", status: "complete"},
-                    { todo: "Complete week 11 lab", status: "complete"}
-            ];
+let completedTodos = [];
 
-            
+console.log('Hello world')
 
