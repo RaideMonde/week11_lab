@@ -18,4 +18,3 @@ for (item of completedTodos){
     console.log(item.todo)
 }
 
-console.log('Hello World')
